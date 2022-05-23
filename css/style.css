@@ -500,3 +500,15 @@ input:focus{
 .footer2 { 
   grid-area: footer2; 
 }
+@media (max-width: 768px) {
+.main_container2 {
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "form"
+    "ubicacion"; 
+  grid-area: main_container2; 
+}
+}
